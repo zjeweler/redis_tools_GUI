@@ -1,9 +1,15 @@
 # redis_tools_GUI
 基于 Python 3 编写的 redis 漏洞图形化利用工具。
 
-> **⚠️ 注意**： 主从复制命令执行会 清空 目标redis数据！！！！该主从复制命令执行会 清空 目标redis数据！！！！该主从复制命令执行会 清空 目标redis数据！！！！
+> **⚠️ 注意**： 主从复制命令执行会 清空 目标redis数据！！！！
 
 > **⚠️ 免责声明**：本工具仅供安全研究和授权渗透测试使用。严禁用于非法攻击。使用者需自行承担因不当使用造成的任何后果。
+
+## ✨ 服务器获取
+redis很多利用都需要公网服务器。
+可以参考我这篇文章白嫖阿里云服务器。
+[阿里云学生领一年服务器方法](https://blog.csdn.net/m0_73767377/article/details/146446151?spm=1001.2014.3001.5501)
+[阿里云服务器九折优惠](https://www.aliyun.com/minisite/goods?userCode=cwl5wbir)
 
 ## ✨ 实现功能
 
@@ -26,6 +32,7 @@
 2 可以下python执行：python redis_tools.py
 
 python运行需要有库 pip install redis
+
 	
 
 
